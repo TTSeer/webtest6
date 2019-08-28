@@ -1,0 +1,837 @@
+﻿/* ::::: http://gpiao.gp803.xyz/gupiao456/css/hjtd_single_jwx05.css ::::: */
+
+body,
+html {
+  background-color: rgb(244, 244, 244);
+}
+
+body {
+  margin: 0px auto;
+  padding: 0px;
+  font-size: 24px;
+  line-height: 34px;
+  font-family: PingFang, "Microsoft Yahei";
+  color: rgb(51, 51, 51);
+  -moz-text-size-adjust: none;
+  min-width: 1000px;
+  background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+}
+
+button,
+dd,
+div,
+dl,
+dt,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+input,
+li,
+ol,
+p,
+td,
+textarea,
+th,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+input,
+select {
+  font-family: "microsoft yahei";
+}
+
+img {
+  border: 0px none;
+}
+
+li,
+ul {
+  list-style-type: none;
+}
+
+em,
+i {
+  font-style: normal;
+}
+
+:focus {
+  outline: 0px none;
+}
+
+h2,
+h3,
+h4 {
+  font-size: 14px;
+  font-family: "Microsoft Yahei";
+}
+
+a {
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+}
+
+.clearfix::after {
+  content: " ";
+  display: block;
+  height: 0px;
+  clear: both;
+  visibility: hidden;
+}
+
+.box1 {
+  height: 1514px;
+  background: transparent url('../images/hjtd_single_jwx03_bg1.jpg') no-repeat scroll center center;
+}
+
+.main {
+  width: 1100px;
+  margin: 0px auto;
+  position: relative;
+  height: 100%;
+}
+
+.phone_code {
+  width: 175px;
+  height: 234px;
+  position: absolute;
+  top: 268px;
+  right: 71px;
+}
+
+.p_c_box {
+  position: absolute;
+  top: 450px;
+  right: 60px;
+  color: rgb(254, 244, 229);
+  font-size: 18px;
+  font-weight: 600;
+  width: 195px;
+  text-align: center;
+  line-height: 26px;
+}
+
+.box1 .feature {
+  position: absolute;
+  width: 205px;
+  top: 820px;
+}
+
+.box1 .feature .up {
+  width: 220px;
+  margin-bottom: 34px;
+}
+
+.box1 .feature .up p {
+  text-align: center;
+  color: rgb(222, 27, 24);
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.box1 .feature .down {
+  width: 193px;
+  margin: 0px auto;
+  background: rgb(253, 7, 7) none repeat scroll 0% 0%;
+  height: 46px;
+  line-height: 46px;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.box1 .feature1 {
+  left: 15px;
+}
+
+.box1 .feature2 {
+  left: 305px;
+}
+
+.box1 .feature3 {
+  left: 586px;
+}
+
+.box1 .feature4 {
+  left: 866px;
+}
+
+.freeGet {
+  height: 60px;
+  position: absolute;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.box1 .freeGet {
+  width: 478px;
+  top: 1384px;
+  left: 321px;
+  background-image: url('../images/hjtd_single_jwx03_btn.gif');
+}
+
+.box2 {
+  height: 818px;
+  background: transparent url('../images/hjtd_single_jwx03_bg2.jpg') no-repeat scroll center center;
+}
+
+.box2 .freeGet {
+  width: 478px;
+  bottom: 56px;
+  left: 321px;
+  background-image: url('../images/hjtd_single_jwx03_btn.gif');
+}
+
+.box3 {
+  height: 635px;
+  background: transparent url('../images/hjtd_single_jwx03_bg3.jpg') no-repeat scroll center center;
+}
+
+.box3 .stock ul li {
+  float: left;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  width: 191px;
+  height: 53px;
+  text-align: center;
+  line-height: 52px;
+  margin-bottom: 9px;
+  margin-right: 8px;
+}
+
+.box3 .stock {
+  position: absolute;
+  top: 180px;
+  left: 55px;
+}
+
+.box3 .freeGet {
+      display: block;
+  width: 478px;
+  top: 512px;
+  left: 321px;
+  background-image: url('../images/hjtd_single_jwx03_btn.gif');
+  -webkit-animation: as 0.5s infinite;
+  animation: as 0.5s infinite;
+  cursor: pointer;
+}
+
+.box4 {
+  height: 410px;
+  background: transparent url('../images/hjtd_single_jwx03_bottom.png') no-repeat scroll center center;
+}
+
+.box4 .code {
+  width: 165px;
+  height: 165px;
+  position: absolute;
+  top: 66px;
+  left: 454px;
+}
+
+.box4 p {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  line-height: 16px;
+  font-size: 14px;
+}
+
+.box4 p {
+  padding-top: 320px;
+}
+
+.fixed {
+  width: 294px;
+  height: 558px;
+  background: transparent url('../images/hjtd_single_jwx03_fixed.png') no-repeat scroll center center;
+  position: fixed;
+  bottom: 20px;
+  right: 0px;
+}
+
+.fixed_close {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 109px;
+  right: 25px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.fixed_code {
+  width: 176px;
+  height: 176px;
+  position: absolute;
+  top: 280px;
+  left: 60px;
+}
+
+.fixed_box {
+  position: absolute;
+  top: 473px;
+  color: rgb(254, 244, 229);
+  font-size: 20px;
+  font-weight: 600;
+  width: 85%;
+  text-align: center;
+  margin: 0px 20px;
+}
+
+.box4_box {
+  position: absolute;
+  top: 275px;
+  left: 300px;
+  color: rgb(254, 244, 229);
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.tc_mask {
+  display: none;
+  position: fixed;
+  z-index: 10002;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8) none repeat scroll 0% 0%;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.tc_wrap2 {
+  position: absolute;
+  width: 531px;
+  height: 484px;
+  left: 50%;
+  top: 50%;
+  margin-top: -242px;
+  margin-left: -265.5px;
+  background: transparent url('../images/hjtd_single_jwx03_tc.png') repeat scroll 0% 0%;
+}
+
+.tc_wrap2 a {
+  z-index: 100;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  top: 4px;
+  right: 52px;
+  position: absolute;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.tc_sj2 .mask_code {
+  width: 286px;
+  height: 286px;
+  position: absolute;
+  top: 127px;
+  left: 120px;
+}
+
+.tc_sj2 p {
+  font-size: 28px;
+  color: rgb(254, 244, 229);
+  position: absolute;
+  top: 445px;
+  left: 50px;
+  text-align: center;
+}
+
+/* ::::: http://gpiao.gp803.xyz/gupiao456/css/cngold.css ::::: */
+
+#fvmask {
+  clear: both;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 99999;
+  display: none;
+  position: fixed;
+}
+
+#fvmask .mask_bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(136, 136, 136) none repeat scroll 0% 0%;
+  opacity: 0.8;
+}
+
+#fvmask .main_panel {
+  width: 390px;
+  left: 50%;
+  margin-left: -240px;
+  position: absolute;
+  top: 50%;
+  background: rgb(255, 255, 255) none repeat scroll 0px 0px;
+  height: 320px;
+  margin-top: -180px;
+}
+
+#fvmask .main_panel img {
+  float: none;
+  margin: 0px;
+  vertical-align: baseline;
+}
+
+#fvmask .main_panel .mid {
+  position: absolute;
+  width: 310px;
+  left: 20px;
+  display: block;
+}
+
+#fvmask .main_panel .mid input {
+  display: block;
+  width: 100%;
+}
+
+#fvmask .main_panel .mid input.capInput {
+  width: 190px;
+}
+
+#fvmask .main_panel .mid input.free-code {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 0px;
+  margin: 0px;
+  border: 0px none;
+  width: 110px;
+  height: 44px;
+  line-height: 44px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  background: rgb(158, 204, 243) none repeat scroll 0% 0%;
+  cursor: pointer;
+}
+
+#fvmask .main_panel .mid img {
+  display: block;
+  width: 100%;
+}
+
+#fvmask .main_panel .img_wrapper {
+  left: 40px;
+  top: 75px;
+}
+
+#fvmask .main_panel .t2_txt {
+  left: 40px;
+  top: 100px;
+  font: 12px/24px "microsoft yahei";
+  color: rgb(153, 153, 153);
+}
+
+#fvmask .main_panel .t2_txt span {
+  margin: 0px 6px;
+  color: rgb(27, 102, 199);
+}
+
+#fvmask .main_panel .t2_input {
+  left: 40px;
+  top: 165px;
+}
+
+#fvmask .main_panel .mid img {
+  height: 80px;
+  width: 222px;
+}
+
+#fvmask .t2_input input {
+  font-size: 12px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+#fvmask .main_panel #pictureCaptcha {
+  display: block;
+  width: 304px;
+  top: 60px;
+}
+
+#fvmask .main_panel #tip_pictureCaptcha {
+  height: 18px;
+  font-size: 12px;
+}
+
+#fvmask .main_panel #tip_mobilecaptcha {
+  position: absolute;
+  left: 0px;
+  top: 44px;
+  height: 18px;
+  line-height: 18px;
+  max-width: 276px;
+  padding: 9px 5px 9px 18px;
+  margin-right: -3px;
+  font-size: 12px;
+  color: rgb(171, 0, 3);
+  background: transparent url('../images/moni_reg_errortb_1.jpg') no-repeat scroll 3px 12px;
+  display: none;
+}
+
+#fvmask .main_panel .img_reload {
+  cursor: pointer;
+  width: 45px;
+  line-height: 20px;
+  font-size: 12px;
+  top: 95px;
+  left: 300px;
+  position: absolute;
+  color: rgb(27, 102, 199);
+}
+
+#fvmask .main_panel .smt_wrapper {
+  font-size: 20px;
+  font-weight: bold;
+  width: 350px;
+  height: 48px;
+  top: 245px;
+  background: rgb(81, 162, 232) none repeat scroll 0% 0%;
+  border: 0px none;
+}
+
+#fvmask .main_panel .smt_wrapper input {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  height: 48px;
+  border: 0px none;
+}
+
+#fvmask .main_panel .smt_wrapper input:hover {
+  background: rgb(60, 151, 230) none repeat scroll 0% 0%;
+}
+
+.modal-header {
+  border-bottom: 1px solid rgb(242, 242, 242);
+  height: 46px;
+  background: rgb(247, 247, 247) none repeat scroll 0% 0%;
+  position: relative;
+}
+
+.modal-header .close {
+  background-color: rgb(140, 140, 140);
+  cursor: pointer;
+  display: block;
+  height: 16px;
+  line-height: 16px;
+  position: absolute;
+  right: 20px;
+  text-align: center;
+  top: 16px;
+  width: 16px;
+}
+
+.modal-header h3 {
+  color: rgb(102, 102, 102);
+  font-size: 16px;
+  line-height: 46px;
+  margin: 0px;
+  font-family: "microsoft yahei";
+  text-indent: 1em;
+}
+
+.modal-header .close {
+  background: transparent url('../images/closebtn.png') no-repeat scroll 0% 0%;
+}
+
+.sub_bg {
+  box-shadow: 0px 1px 1px rgb(240, 240, 240);
+  background: transparent url('../images/intbg.png') repeat-x scroll 0px -40px;
+  height: 36px;
+  display: inline-block;
+  border: 1px solid rgb(218, 218, 218);
+  font-size: 14px;
+  width: 132px;
+  cursor: pointer;
+}
+
+.code-area {
+  width: 100px;
+}
+
+.errortip {
+  border: 1px solid rgb(221, 221, 221);
+  height: 40px;
+}
+
+.val_m {
+  vertical-align: middle;
+}
+
+.no_bg {
+  border: 0px none;
+  padding: 0px;
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+  height: 36px;
+  font: 400 16px/18px "microsoft yahei";
+}
+
+.clearfix::after {
+  content: " ";
+  display: block;
+  height: 0px;
+  clear: both;
+  visibility: hidden;
+}
+
+@media screen and (min-width: 480px) and (max-width: 799px) {}
+
+/* ::::: http://gpiao.gp803.xyz/gupiao456/css/passport.css ::::: */
+
+/* ::::: http://passport2.cngold.org//resource/cngold/css/cngold.passport1.mask.css ::::: */
+
+#fvmask {
+  clear: both;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 99999;
+  display: none;
+  position: fixed;
+}
+
+#fvmask .mask_bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(136, 136, 136) none repeat scroll 0% 0%;
+  opacity: 0.8;
+}
+
+#fvmask .main_panel {
+  width: 390px;
+  left: 50%;
+  margin-left: -240px;
+  position: absolute;
+  top: 50%;
+  background: rgb(255, 255, 255) none repeat scroll 0px 0px;
+  height: 320px;
+  margin-top: -180px;
+}
+
+#fvmask .main_panel img {
+  float: none;
+  margin: 0px;
+  vertical-align: baseline;
+}
+
+#fvmask .main_panel .mid {
+  position: absolute;
+  width: 310px;
+  left: 20px;
+  display: block;
+}
+
+#fvmask .main_panel .mid input {
+  display: block;
+  width: 100%;
+}
+
+#fvmask .main_panel .mid input.capInput {
+  width: 190px;
+}
+
+#fvmask .main_panel .mid input.free-code {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 0px;
+  margin: 0px;
+  border: 0px none;
+  width: 110px;
+  height: 44px;
+  line-height: 44px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  background: rgb(158, 204, 243) none repeat scroll 0% 0%;
+  cursor: pointer;
+}
+
+#fvmask .main_panel .mid img {
+  display: block;
+  width: 100%;
+}
+
+#fvmask .main_panel .img_wrapper {
+  left: 40px;
+  top: 75px;
+}
+
+#fvmask .main_panel .t2_txt {
+  left: 40px;
+  top: 100px;
+  font: 12px/24px "microsoft yahei";
+  color: rgb(153, 153, 153);
+}
+
+#fvmask .main_panel .t2_txt span {
+  margin: 0px 6px;
+  color: rgb(27, 102, 199);
+}
+
+#fvmask .main_panel .t2_input {
+  left: 40px;
+  top: 165px;
+}
+
+#fvmask .main_panel .mid img {
+  height: 80px;
+  width: 222px;
+}
+
+#fvmask .t2_input input {
+  font-size: 12px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+#fvmask .main_panel #pictureCaptcha {
+  display: block;
+  width: 304px;
+  top: 60px;
+}
+
+#fvmask .main_panel #tip_pictureCaptcha {
+  height: 18px;
+  font-size: 12px;
+}
+
+#fvmask .main_panel #tip_mobilecaptcha {
+  position: absolute;
+  left: 0px;
+  top: 44px;
+  height: 18px;
+  line-height: 18px;
+  max-width: 276px;
+  padding: 9px 5px 9px 18px;
+  margin-right: -3px;
+  font-size: 12px;
+  color: rgb(171, 0, 3);
+  background: transparent url('../images/moni_reg_errortb_001.jpg') no-repeat scroll 3px 12px;
+  display: none;
+}
+
+#fvmask .main_panel .img_reload {
+  cursor: pointer;
+  width: 45px;
+  line-height: 20px;
+  font-size: 12px;
+  top: 95px;
+  left: 300px;
+  position: absolute;
+  color: rgb(27, 102, 199);
+}
+
+#fvmask .main_panel .smt_wrapper {
+  font-size: 20px;
+  font-weight: bold;
+  width: 350px;
+  height: 48px;
+  top: 245px;
+  background: rgb(81, 162, 232) none repeat scroll 0% 0%;
+  border: 0px none;
+}
+
+#fvmask .main_panel .smt_wrapper input {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  height: 48px;
+  border: 0px none;
+}
+
+#fvmask .main_panel .smt_wrapper input:hover {
+  background: rgb(60, 151, 230) none repeat scroll 0% 0%;
+}
+
+.modal-header {
+  border-bottom: 1px solid rgb(242, 242, 242);
+  height: 46px;
+  background: rgb(247, 247, 247) none repeat scroll 0% 0%;
+  position: relative;
+}
+
+.modal-header .close {
+  background-color: rgb(140, 140, 140);
+  cursor: pointer;
+  display: block;
+  height: 16px;
+  line-height: 16px;
+  position: absolute;
+  right: 20px;
+  text-align: center;
+  top: 16px;
+  width: 16px;
+}
+
+.modal-header h3 {
+  color: rgb(102, 102, 102);
+  font-size: 16px;
+  line-height: 46px;
+  margin: 0px;
+  font-family: "microsoft yahei";
+  text-indent: 1em;
+}
+
+.modal-header .close {
+  background: transparent url('../images/closebtn_001.png') no-repeat scroll 0% 0%;
+}
+
+.sub_bg {
+  box-shadow: 0px 1px 1px rgb(240, 240, 240);
+  background: transparent url('../images/intbg_001.png') repeat-x scroll 0px -40px;
+  height: 36px;
+  display: inline-block;
+  border: 1px solid rgb(218, 218, 218);
+  font-size: 14px;
+  width: 132px;
+  cursor: pointer;
+}
+
+.code-area {
+  width: 100px;
+}
+
+.errortip {
+  border: 1px solid rgb(221, 221, 221);
+  height: 40px;
+}
+
+.val_m {
+  vertical-align: middle;
+}
+
+.no_bg {
+  border: 0px none;
+  padding: 0px;
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+  height: 36px;
+  font: 400 16px/18px "microsoft yahei";
+}
+
+.clearfix::after {
+  content: " ";
+  display: block;
+  height: 0px;
+  clear: both;
+  visibility: hidden;
+}
+
+@media screen and (min-width: 480px) and (max-width: 799px) {}
+
+/* ::::: http://passport2.cngold.org//resource/passport2/pc/css/passport.suite.css ::::: */
